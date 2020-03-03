@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>adidas</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="back">
+       <div id="topnav">
+           <h4>adidas</h4>
+           <div id="links">
+               <a href="#">Shop</a>
+               <a href="#">sport</a>
+               <a href="#">customise</a>
+               <a href="#">men</a>
+               <a href="#">women</a>
+           </div>
+           <div id="icons">
+               <div class="whiteshadow">
+                   <!-- <div class="searchbar"> -->
+                   <!-- <input id="inputtext" type="text" placeholder="Search"> -->
+                   <i id="searchbutton" class="fa fa-search"></i>
+                <!-- </div> -->
+               </div>
+               <div class="whiteshadow">
+                <i class="fa fa-shopping-bag"></i>
+            </div>
+           </div>
+       </div> 
+       <div id="mainlogo"></div>
+       <div id="sidelogo"></div>
+       <div id="maincontent">
+        <div id="lefttext">
+            <h1>new baricade</h1>
+            <p>$200 - $350</p>
+            <div id="buttons">
+                <div class="whiteshadow2"><button>buy now</button></div>
+                <div class="whiteshadow2"><button><p class="fa fa-shopping-cart"></p></button></div>
+            </div>
+        </div>
+        <div id="shoeimage"></div>
+        <i class="fa fa-arrow-right"></i>
+       </div>
+       <div id="bottomlinks">
+           <i class="fa fa-facebook"></i>
+           <i class="fa fa-instagram"></i>
+           <i class="fa fa-twitter"></i>
+       </div>
+    </div>
+    <script>
+        
+        var a = document.querySelector("searchbutton")
+        var b = false
+        a.onClick(Function(){
+            b = true,
+            var c = document.querySelector("inputtext") ,
+            c.style.width = 200px;
+        })
+    </script>
+</body>
+</html>

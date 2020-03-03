@@ -1,0 +1,229 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+#back{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    background-image: url("adidas – 1.png");
+    background-size: cover;
+    background-position: center;
+}
+
+#topnav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 50px;
+    height: 70px;
+    width: 100%;
+    /* background-color: chartreuse; */
+}
+
+#topnav h4{
+    font-family: TeX Gyre Adventor;
+    font-size: 20px;
+}
+
+#topnav a{
+    text-transform: capitalize;
+    font-family: montserrat;
+    font-weight: 700;
+    font-size: 15px;
+    color: #919191;
+    text-decoration: none;
+    margin: 0 30px;
+}
+
+#topnav a:nth-child(1){
+    color: black;
+}
+
+#icons{
+    display: flex;
+}
+
+.whiteshadow{
+    height: 50px;
+    width: 50px;
+    border-radius: 5px;
+    margin-left: 30px;
+    box-shadow: -5px -5px 10px 3px white ;
+}
+
+.whiteshadow i{
+    color: #919191;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    width: 50px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px 3px #91919136 ;
+}
+
+/* .searchbar{
+    /* margin-right: 500px; */
+    /* display: flex;
+    position: absolute;
+    right: 10%;
+}
+
+.searchbar input{
+    
+    padding: 0 10px;
+    border: none;
+    width: 200px;
+    outline: none;
+    border-radius: 10px;
+    margin-right: 10px;
+    letter-spacing: 1px;
+    font-size: 15px;
+    font-weight: 700;
+    opacity: .7;
+    font-family: montserrat;
+} */ 
+
+#mainlogo{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 570px;
+    height:570px;
+    background-position: center;
+    background-size: cover;
+    background-image: url("Group 7.png");
+}
+
+#sidelogo{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    height: 550px;
+    width: 200px;
+    background-position: center;
+    background-size: cover;
+    background-image: url("Mask Group 1.png");
+}
+
+#maincontent{
+    position: absolute;
+    left: 3%;
+    width: 94%;
+    height: 500px;
+    /* background-color: red; */
+    padding: 0 50px;
+}
+
+#shoeimage{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-image: url("unnamed.png");
+    height: 400px;
+    width: 400px;
+    background-size: cover;
+    background-position: center;
+}
+
+#lefttext{
+    font-family: montserrat;
+    position: absolute;
+    top: 10%;
+    height: 350px;
+    width: 400px;
+    text-transform: uppercase;
+    /* background-color: white; */
+}
+
+#lefttext h1{
+    /* position: absolute; */
+    /* top: 70%; */
+    font-size: 50px;
+    font-weight: 600;
+    opacity: .7;
+    line-height: 70px;
+}
+
+#lefttext >p{
+    margin-top: 40px;
+    font-size: 35px;
+    font-weight: 600;
+    opacity: .7;
+    /* margin-bottom: 70px; */
+}
+
+#buttons {
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+}
+
+#buttons button{
+    font-family: montserrat;
+    text-transform: uppercase;
+    font-weight: 700;
+    opacity: .7;
+    outline: none;
+    font-size: 15px;
+    height: 100%;
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px 3px #91919136 ;
+}
+
+#buttons .whiteshadow2{
+    border-radius: 5px;
+    margin-right: 30px;
+    height: 45px;
+    width: 120px;
+    border: none;
+    box-shadow: -5px -5px 10px 3px white ;
+}
+
+#buttons .whiteshadow2:nth-child(2) {
+    width: 50px;
+    
+}
+
+
+
+#maincontent i{
+    position: absolute;
+    right: 2%;
+    top: 50%;
+    transform: translate(0,-50%);
+    font-size: 35px;
+    /* font-weight: 300; */
+    opacity: .5;
+}
+
+#bottomlinks{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    bottom: 0;
+    left: 6%;
+    height: 60px;
+    font-size: 20px;
+    width: 120px;
+    opacity: .7;
+    /* background-color: rebeccapurple; */
+
+}
+
+@media(max-width: 500px){
+    
+}
